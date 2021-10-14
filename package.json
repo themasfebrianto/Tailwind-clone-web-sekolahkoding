@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "tailwind build ./src/css/style.css -o ./public/css/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
